@@ -1,13 +1,11 @@
 <?php
-
+#fonction des chiffres non premiers
 function estpremier($nombre) {
     for ($paspremier = 2; $paspremier < $nombre; $paspremier++) {
         if ($nombre % $paspremier == 0) {
             return false;
         }
     }
- 
-    //Aucun diviseur trouver, c'est un nombre permier
     return true;
 }
  
