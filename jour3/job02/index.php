@@ -7,4 +7,6 @@ while ($str <=isset($str[$i])==true ) {
     }
    $i++;
 }
+?>
+
 
