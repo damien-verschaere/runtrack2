@@ -8,7 +8,7 @@ $dic=array(
 $compteurC=0;
 $compteurV=0;
 
-for ($i=0;isset($str[$i])==true; $i++) { 
+for ($i=0;isset($str[$i]); $i++) { 
     echo $str[$i];
     for ($c=0;isset($dic['consone'][$c]);$c++) { 
         if ($str[$i]==$dic['consone'][$c]) {
@@ -22,8 +22,7 @@ for ($i=0;isset($str[$i])==true; $i++) {
 };
 
 }
-echo $compteurC;
-echo $compteurV;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
