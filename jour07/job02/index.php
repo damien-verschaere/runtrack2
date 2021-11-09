@@ -1,6 +1,6 @@
 <html> 
     <head> 
-        <title>Count Page Access</title> 
+        <title></title> 
    </head> 
   <body> 
 <?php 
