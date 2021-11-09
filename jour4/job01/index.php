@@ -18,11 +18,16 @@
 </body>
 </html>
 <?php
- $index=0;
+ 
 
- foreach ($_GET as $key=>$index ) {
-     echo $key."<br>";
-     $index++;
+ foreach ($_GET as $key=>$value ) {
+   
+     echo $key"<br>";
+     
  }
+//  foreach($langages as $key => $value){
+//     echo $key . " : " . $value . "<br>";
+//   }
+?>
 
-    ?>
+    
