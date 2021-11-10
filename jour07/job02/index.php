@@ -24,7 +24,7 @@
         setcookie("compteur", $cookie);
         ?> 
 <?= $_COOKIE['compteur'] ?> 
-<?php  }//end else  ?> 
+<?php  }?> 
 <form action="index.php"method='POST'>
     <input type="submit"name="reset">
 </form>
